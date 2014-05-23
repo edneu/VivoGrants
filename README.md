@@ -1,11 +1,11 @@
 VivoGrants
 ==========
 
-Getting UF Research Awards Data into VIVO
+# Getting UF Research Awards Data into VIVO
 
 
-  VIVO_SRMaster.SPS Program creates the two input file for this Script,
-  INV_ROOT.DAT  Tab Delingied file containing
+##  VIVO_SRMaster.SPS Program creates the two input file for this Script,
+##  INV_ROOT.DAT  Tab Delingied file containing
 
             AwardIndicator,
             AwardID,
@@ -19,7 +19,7 @@ Getting UF Research Awards Data into VIVO
             RefAwardNumber,
             Note
 
-   VIVO_INVESTIGATOR.DAT
+##   VIVO_INVESTIGATOR.DAT
    the input file is tab delimited and contains 
            PS_CONTRACT  (AwardID Number) 
            INV_TYPE  (values : 
@@ -39,7 +39,7 @@ Getting UF Research Awards Data into VIVO
                              <<cdl  of the UFIDs of CoPIs> ; 
                              <<cdl  of the UFIDs of Invs> ;
           
-   The final output file is a semicolon delimited file of the following format:
+##   The final output file is a semicolon delimited file of the following format:
            AwardIndicator;
            AwardID;
            AwardTitle;
