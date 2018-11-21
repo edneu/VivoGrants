@@ -1,16 +1,12 @@
-##VivoGrants
-==========
+###VivoGrants
+
 #### Getting UF Research Awards Data into VIVO
 
+VIVO_SRMaster.SPS Program creates the two input file for this Script,
+INV_ROOT.DAT  Tab Delingied file containing
+INV_ROOT.DAT  Tab Delimited file containing
 
-#####  VIVO_SRMaster.SPS Program creates the two input file for this Script,
-<<<<<<< HEAD
-#####  INV_ROOT.DAT  Tab Delingied file containing
-=======
-#####  INV_ROOT.DAT  Tab Delimited file containing
-
-
-            AwardIndicator,
+AwardIndicator,
             AwardID,
             TotalAwarded,
             Direct,
@@ -22,7 +18,6 @@
             Note
 
 #####   VIVO_INVESTIGATOR.DAT
-<<<<<<< HEAD
    the input file is tab delimited and contains 
            PS_CONTRACT  (AwardID Number) 
            INV_TYPE  (values : 
@@ -31,7 +26,7 @@
                 'Inv' for other investigators
            UFID  (ID number of Investogotor
            INVEST_LEVEL Redundant with INV_TYPE  1=PI, 2=CoPI, 3=Inv
-=======
+
    the input file is tab delimited and contains 
           PS_CONTRACT  (AwardID Number) 
            INV_TYPE  (values : 
