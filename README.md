@@ -5,7 +5,8 @@
 #### Getting UF Research Awards Data into VIVO
 
 #### VIVO_SRMaster.SPS Program creates the two input file for this Script,
-            INV_ROOT.DAT  Tab Delimited file containing
+            
+#####INV_ROOT.DAT  Tab Delimited file containing
 
             AwardIndicator,
             AwardID,
@@ -17,8 +18,9 @@
             AwardPrimeCustID,
             RefAwardNumber,
             Note
-####   VIVO_INVESTIGATOR.DAT
+#####   VIVO_INVESTIGATOR.DAT
            the input file is tab delimited and contains 
+ 
             PS_CONTRACT  (AwardID Number) 
             INV_TYPE  (values : 
                  'PI' for principal investigator, 
