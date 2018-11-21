@@ -1,4 +1,6 @@
-###VivoGrants
+
+### VIVO Grants
+
 
 #### Getting UF Research Awards Data into VIVO
 
@@ -37,18 +39,13 @@ AwardIndicator,
                  INVEST_LEVEL Redundant with INV_TYPE  1=PI, 2=CoPI, 3=Inv
 
  
-##   Mk_VIVO_Grants.pl  
-   
-
-
+###   Mk_VIVO_Grants.pl  
 #####    A Hash table is popultated with the Key = AwardID 
                            values =          
                            <comma delimited list (cdl) of the UFIDs of PIs> ; 
                            <<cdl  of the UFIDs of CoPIs> ; 
-                            <<cdl  of the UFIDs of Invs> ;
-          
-
-####   The final output file is a semicolon delimited file of the following format:
+                           <<cdl  of the UFIDs of Invs> ;
+ ####   The final output file is a semicolon delimited file of the following format:
            AwardIndicator;
            AwardID;
            AwardTitle;
@@ -63,7 +60,6 @@ AwardIndicator,
            AwardPrimeCustID;
            RefAwardNumber;
            Note "\n"
-=======
 #####   The final output file is a semicolon delimited file of the following format:
            AwardIndicator;
            AwardID;
