@@ -60,19 +60,4 @@ AwardIndicator,
            AwardPrimeCustID;
            RefAwardNumber;
            Note "\n"
-#####   The final output file is a semicolon delimited file of the following format:
-           AwardIndicator;
-           AwardID;
-           AwardTitle;
-           TotalAwarded;
-           Direct;
-           StartDate;
-           EndDate;
-           UFID of PI (comma delimited list);
-           UFID of CoPI (comma delimited list);
-           UFID of other Investigators (comma delimited list);
-           AwardDeptID;
-           AwardPrimeCustID;
-           RefAwardNumber;
-           Note "\n"
 
