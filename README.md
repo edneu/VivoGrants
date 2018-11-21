@@ -6,7 +6,7 @@
 
 #### VIVO_SRMaster.SPS Program creates the two input file for this Script,
             
-#####INV_ROOT.DAT  Tab Delimited file containing
+#####     INV_ROOT.DAT  Tab Delimited file containing
 
             AwardIndicator,
             AwardID,
